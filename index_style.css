@@ -7,46 +7,7 @@ body{
     color: #333;
     overflow-x: hidden!important;
 } 
-/* back */
-/* #back-to-top .top {
-    margin: 0;
-    color: #fff;
-    /* background: #333; */
-    position: fixed;
-    bottom: 90px;
-    right: 25px;
-    z-index: 999;
-    font-size: 26px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 90px;
-    transition: all .3s ease-in-out;
-}
 
-#back-to-top .top {
-    position: absolute;
-    bottom: 1%;
-    left: 1%;
-    z-index: 9;
-    font-weight: 600;
-    overflow: hidden;
-}
-.ion-ios-upload-outline:before {
-    content: "\f4ca";
-}
-#back-to-top .top i {
-    font-size: 28px;
-    vertical-align: middle;
-}
-*, :after, :before {
-    box-sizing: border-box;
-}
-user agent stylesheet
-i {
-    font-style: italic;
-} */
 #top{
     top: 0;
 }
