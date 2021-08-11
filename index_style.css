@@ -1,0 +1,240 @@
+body{
+    font-family: "Roboto","Open Sans",sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1;
+    color: #333;
+    overflow-x: hidden!important;
+} 
+/* back */
+/* #back-to-top .top {
+    margin: 0;
+    color: #fff;
+    /* background: #333; */
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    z-index: 999;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 90px;
+    transition: all .3s ease-in-out;
+}
+
+#back-to-top .top {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    z-index: 9;
+    font-weight: 600;
+    overflow: hidden;
+}
+.ion-ios-upload-outline:before {
+    content: "\f4ca";
+}
+#back-to-top .top i {
+    font-size: 28px;
+    vertical-align: middle;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+} */
+#top{
+    top: 0;
+}
+header{
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 100px;
+}
+nav{
+    margin-top: 10px;
+}
+.navbar .logo a img{
+    position: fixed;
+    height: 40px;
+    width: 10%;
+    margin-left: 5%;
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    float: left;
+}
+.navbar-center{
+    position: fixed;
+    /* float: right; */
+    /* width: 50%; */
+    margin-top: 15px;
+    margin-left: 28%;
+}
+.navbar-center .nav-text{
+    /* margin-right: 40px; */
+    padding: 10px;
+}
+.navbar-center .nav-text a{
+    font-weight: 700;
+    text-align: center;
+    color: #1e1e1e;
+    margin-left: 23px;
+    padding: 10px 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar-right{
+    /* position: fixed; */
+    float: right;
+    margin-right: 6%;
+    /* background: white; */
+}
+.navbar-right .nav-text{
+    float: left;
+    /* margin-right: 40px; */
+    /* padding: 10px; */
+}
+.navbar-right .nav-text button a{
+    font-weight: 700;
+    color: white;
+    padding: 10px 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar-right .nav-text button{
+    /* border: none; */
+    background-color: #f44336;
+    border-color: #f44336;
+    border-radius: 30px;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+
+}
+/* navigation dropdown */
+.navbar-right .nav-text button:hover{
+    background-color: black;
+    border-color: black;
+    border-radius: 30px;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
+div header nav .navbar-center .nav-text .dropdown{
+    display: none;
+    position: absolute;
+    
+    padding: 5px 10px;
+    background-color: #fff;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 2%;
+
+  /* border: 1px solid black; */
+    z-index: 999;
+}
+div header nav .navbar-center .nav-text .dropdown .dropdown-txt:hover{
+    
+    border-bottom: 3px solid red;
+}
+div header nav .navbar-center .nav-text .dropdown .dropdown-txt{
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    background-color: #fff;
+    padding: 10px 0px;
+    text-align: left;
+
+}
+div header nav .navbar-center .nav-text:hover .dropdown{
+    color: #f44336;
+    display: block;
+    
+    /* border-bottom: 3px solid red; */
+}
+div header nav .navbar-center .nav-text a:hover{
+    color: #f44336;
+    font-size: bold;
+    
+}
+div header nav .navbar-center .nav-text:hover{
+    
+    border-bottom: 3px solid red;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+img{
+    width: 100%;
+    /* height: auto; */
+}
+section{
+    line-height: 2;
+    min-height:900px;
+    box-sizing: border-box;
+}
+.box_card{
+    width: 38%;
+    height: 300px;
+    float: left;
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius:10px;
+} 
+h4{
+    text-align: right;
+    margin-top: 10px;
+}
+.mini_img{
+    width: 180px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 50%;
+}
+
+.icon{
+
+    list-style-type: none;
+    display: inline-block;
+}
+.icon{
+    margin-right:10px;
+    margin-top: 0%;
+}
+.container {
+    padding: 2px 16px;
+}
+
+.card_img{
+    width: 320px;
+    height: 240px;
+
+}
+footer{
+    margin-bottom: 80px;
+}
+
+
