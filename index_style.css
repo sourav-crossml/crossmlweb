@@ -7,6 +7,7 @@ body{
     color: #333;
     overflow-x: hidden!important;
 } 
+/* animation */
 
 #top{
     top: 0;
@@ -199,3 +200,29 @@ footer{
 }
 
 
+.animation{
+    height: 100px;
+    width: 100px;
+    margin-top: -132%;
+    margin-left: -55%;
+    /* animation-name: crossml; */
+    /* animation-duration: 4s; */
+    position: relative;
+    animation: crossml 4s linear infinite alternate;
+    animation-delay: 0s;
+}
+.animation img{
+    height: 281px;
+    width: 221%;
+     
+}
+.animation .img2{
+    margin-left: 84%;
+    height: 165px;
+    width: 100%;
+    margin-top: -106%;
+}
+@keyframes crossml{
+    0%{left: 0;top:0}
+    100%{left: 0;top: 100px;}
+}
